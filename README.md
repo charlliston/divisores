@@ -10,11 +10,14 @@ O resultado é exibido na tela e fica gravado na tabela "Consultas Anteriores".
 
 ## Funcionalidade
 
-A ferramenta foi concebida visando realizar dois tipos de cálculos:
+O sistema foi concebido visando realizar dois tipos de cálculos:
 
 * Calcular os divisores de um número
 * Calcular se é um número primo
 
+## Tecnologias
+
+O sistema utiliza as tecnologias: HTML, CSS e JavaScript. A partir da linguagem HTML foi possível criar o frontend da página e prepará-la para receber os resultados que são calculados pelo backend. Com o JavaScript criei dois arquivos: um que contém as funções de calcular os divisores do valor de entrada e um outro que é responsável por verificar erros e retornar o resultado para o frontend. Com o CSS toda a parte de aparência da página é controlado através de classes e atributos.
 
 ## Tela
 
