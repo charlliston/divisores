@@ -8,7 +8,7 @@ O sistema web conta com uma tela com um campo de texto e um botão "Consultar". 
 O resultado é exibido na tela e fica gravado na tabela "Consultas Anteriores".
 
 
-## Funcionalidade
+## Objetivo
 
 O sistema foi concebido visando realizar dois tipos de cálculos:
 
@@ -26,7 +26,7 @@ Cálculos Anteriores | Nova Consulta
 tabela que armazena os resultados de consultas anteriores | coluna exibe um campo para nova consulta
 dividido entre _número_ e _divisores_ | exibe erros caso o usuário não digite um número válido
 
-## Execução
+## Instruções
 
 Para executar o sistema é necessário acessar o arquivo _index.html_ e, para isso você pode fazer download ou clonar o código fonte:
 
