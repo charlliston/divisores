@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+	
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #FFFAFA;
+}
+
+header{
+	background-color: gray;
+	height: 3em;
+	margin-bottom: 2em;
+	margin-left: 40px;
+	margin-top: .8px;
+	width: 95%;
+	border-radius: 5px 5px;
+}
+
+header h2{
+    border-radius: 4px 4px;
+    color: white;
+    display: flex;
+	font-weight: 900;
+	font-size: large;
+	justify-content: space-between;
+	margin-left: -30px;
+	line-height: 42px
+}
+
+.container{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	margin-left: 40px;
+}
+
+
+.container2{
+	position: absolute;
+	right: 39px;
+	left: 999px;
+	top: -70px;
+	border-radius: 10px 20px;
+}
+
+section{
+	margin: 10em 0;
+	overflow: hidden;
+}
+
+section h3 {
+	font-size: 1.2em;
+	display: block;
+	padding-bottom: .5em;
+	margin-bottom: .3em;
+	border-radius: 10px 30px 10px 10px;
+}
+
+table {
+	width: 100%;
+	margin-bottom : .5em;
+	table-layout: fixed;
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid;
+	text-align: center;
+	border-color: #DCDCDC
+
+}
+
+th {
+	font-weight: bold;
+	background-color: rgb(248, 248, 248);
+}
+
+label {
+	color: black;
+	display: block;
+	margin-bottom: 1em;
+	margin-top: .2em;
+	font-weight: bold;
+}
+
+h3 {
+	background-color:#209cee;
+	padding: .2em .8em;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+	border-radius: 6px;
+}
+
+.container2 h3{
+	background-color: #00d1b2;
+	padding: .4em .8em;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #fff;
+	width: 100%;
+	border-radius: 6px;
+}
+
+
+button{
+	padding: .4em 2em;
+	border: 0;
+	border-bottom: 2px solid;
+	font-size: 1.1em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#00d1b2;
+	border-color: #04324c;
+	width: 22%;
+    display: block;
+    clear: both;
+	margin: 10px 0px;
+	border-radius: 10px;
+	}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 4em;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-color: #DCDCDC;
+	padding: 1em;
+	width: 100%;
+	border-radius: 6px;
+	background-color: rgb(248, 248, 248);
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .3em;
+	background-color: white;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-numero{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.numero-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro{
+	color: lightcoral;
+}
+

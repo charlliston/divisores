@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cálculo de Divisores</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h2 class="titulo">Cálculo de Divisores</h2>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<h3>Consultas Anteriores</h3>
+				<table>
+					<thead>
+						<tr>
+							<th>Número</th>
+							<th>Divisores</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-numeros">
+						<tr class="numero" id="primeiro-numero">
+							<td class="info-numero">10</td>
+							<td class="info-div">10, 5, 2, 1</td>
+						</tr>
+						<tr class="numero">
+							<td class="info-numero">12</td>
+							<td class="info-div">12, 6, 4, 3, 2, 1</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</main>
+		<section class="container2">
+		    <h3 id="titulo-form">Nova Consulta</h3>
+			<ul id="mensagens-erro"></ul>
+		    <form id="form-adiciona">
+		        <div class="campo">
+		            <label for="numero">Número:</label>
+		            <input id="numero" type="text" name="numero" placeholder="digite um número para consultar seus divisores" class="campo campo-medio" required> 
+		        </div>
+		        <button id="btn-consulta" class="bto-principal">Consultar</button>
+		    </form>
+		</section>
+		<script src="js/calcula-div.js" ></script>
+		<script src="js/form.js" ></script>
+	</body>
+</html>
