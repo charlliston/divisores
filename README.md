@@ -30,4 +30,4 @@ dividido entre _número_ e _divisores_ | exibe erros caso o usuário não digite
 
 Para executar o sistema é necessário acessar o arquivo _index.html_ e, para isso você pode fazer download ou clonar o código fonte:
 
-    https://github.com/charllliston/divisores.git
+    https://github.com/charlliston/divisores.git
